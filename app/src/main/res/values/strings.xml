@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Affirmations</string>
+    <string name="movie1">Top Gun : Maverick</string>
+    <string name="movie2"> Everything Everywhere All at Once</string>
+    <string name="movie3">Spider-Man: No Way Home</string>
+    <string name="movie4">Jai Bhim</string>
+    <string name="movie5">Hamilton</string>
+    <string name="movie6">The Father</string>
+    <string name="movie7">1917</string>
+    <string name="movie8">Klaus</string>
+    <string name="movie9">Joker</string>
+    <string name="movie10">Ford v Ferrari</string>
+    <string name="movie11">Parasite</string>
+    <string name="movie12">Avengers: Endgame</string>
+    <string name="movie13">Spider-Man: Into the Spider-Verse</string>
+    <string name="movie14">Green Book</string>
+    <string name="movie15">Capernaum</string>
+    <string name="movie16">Avengers: Infinity War</string>
+    <string name="movie17">Coco</string>
+    <string name="movie18">Three Billboards Outside Ebbing, Missouri</string>
+    <string name="movie19">Logan</string>
+    <string name="movie20">Dangal</string>
+</resources>
