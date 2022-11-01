@@ -4,7 +4,9 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.digipod.affirmations.R
 import com.digipod.affirmations.models.Movie
 
 /*
@@ -23,7 +25,11 @@ class MovieAdapter(
     class MovieHolder(
         private val itemView: View
     ) : RecyclerView.ViewHolder(itemView) {
-        // todo: bind data to view
+        private val textMovie: TextView = itemView.findViewById(R.id.textMovie)
+
+        fun bind(movie: Movie) {
+            textMovie.setText(movie.movieResId)
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieHolder {
@@ -32,7 +38,7 @@ class MovieAdapter(
     }
 
     override fun onBindViewHolder(holder: MovieHolder, position: Int) {
-        TODO("Not yet implemented")
+        holder.bind(movies[position])
     }
 
     override fun getItemCount() = movies.size
